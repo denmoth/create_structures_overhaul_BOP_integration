@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="create_structures_overhaul__bop"
+version="0.1.5"
+displayName="Create: Structures Overhaul - BOP Integration"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/create-structures-overhaul-bop-integration"
+logoFile="logo.png"
+credits=""
+authors="Denmoth"
+description="Adds Biomes O' Plenty support to the Create: Structures Overhaul mod by introducing new structures that fit custom BOP biomes."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.create_structures_overhaul__bop]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.create_structures_overhaul__bop]]
+    modId="create_structures_overhaul"
+    mandatory=true
+    versionRange="[0.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.create_structures_overhaul__bop]]
+    modId="biomesoplenty"
+    mandatory=true
+    versionRange="[19.0.0.96,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.create_structures_overhaul__bop]]
+    modId="create"
+    mandatory=true
+    versionRange="[6.0.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

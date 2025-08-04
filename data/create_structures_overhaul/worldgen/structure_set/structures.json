@@ -1,0 +1,38 @@
+{
+  "structures": [
+    {
+      "structure": "create_structures_overhaul:magic_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "create_structures_overhaul:jacaranda_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "create_structures_overhaul:pine_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "create_structures_overhaul:willow_windmill",
+      "weight": 1
+    },
+        {
+      "structure": "create_structures_overhaul:maple_windmill",
+      "weight": 1
+    },
+        {
+      "structure": "create_structures_overhaul:dead_windmill",
+      "weight": 1
+    },
+    {
+      "structure": "create_structures_overhaul:fir_windmill",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 6,
+    "salt": 1173713707
+  }
+}
