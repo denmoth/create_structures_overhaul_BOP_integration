@@ -11,9 +11,7 @@
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": [
-   "biomesoplenty:old_growth_dead_forest",
-   "biomesoplenty:old_growth_woodland",
-   "biomesoplenty:redwood_forest"
+   "biomesoplenty:aspen_glade"
   ],
   "use_expansion_hack": false
 }
