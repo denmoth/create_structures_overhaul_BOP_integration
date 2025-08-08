@@ -27,6 +27,18 @@
     {
       "structure": "create_structures_overhaul:fir_windmill",
       "weight": 1
+    },
+        {
+      "structure": "create_structures_overhaul:bop_copper_greenhouse",
+      "weight": 1
+    },
+        {
+      "structure": "create_structures_overhaul:bop_lightning_rod_tower",
+      "weight": 1
+    },
+    {
+      "structure": "create_structures_overhaul:bop_copper_storage",
+      "weight": 1
     }
   ],
   "placement": {
