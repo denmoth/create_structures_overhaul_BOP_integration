@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="create_structures_overhaul__bop"
-version="0.2.0"
+version="0.2.1"
 displayName="Create: Structures Overhaul - BOP Integration"
 displayURL="https://legacy.curseforge.com/minecraft/mc-mods/create-structures-overhaul-bop-integration"
 logoFile="logo.png"
