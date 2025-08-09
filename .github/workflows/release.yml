@@ -1,0 +1,32 @@
+name: Pack and Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  pack-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+          contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Pack mod files into JAR
+        run: |
+          mkdir -p output
+          zip -r ./create_structures_overhaul_BOP_integration_${{ github.ref_name }}.jar .
+
+      - name: Upload JAR as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mod-jar
+          path: ./create_structures_overhaul_BOP_integration_${{ github.ref_name }}.jar
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./create_structures_overhaul_BOP_integration_${{ github.ref_name }}.jar
